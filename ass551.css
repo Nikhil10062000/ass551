@@ -1,0 +1,70 @@
+body{
+  background-color: whitesmoke;
+}
+header{
+  position: sticky; 
+  display: inline-block;
+    
+}
+.insta h3{
+  padding-left: 300px;
+  position: relative;
+  top:10px ;
+  font-size: x-large;
+}
+.headmenu{
+width: 30px;
+padding: 10px;
+}
+header .insta{
+  float: left;
+}
+header .menu{
+  position: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  float: right;
+}
+.search{
+  border-radius: 05px ;
+  border: 1px thin;
+  height:28px;
+}
+.m1{
+  float: left;
+  position: relative;
+  top: 36;
+  padding-left: 100px;
+ 
+}
+.m2{
+  float:right;
+  padding-left: 200px;
+
+}
+section{
+  border: 1px solid;
+  display: inline-block;
+  margin-left: 300px;
+  padding: 10px;
+}
+.sec img{
+  width:20px;
+  display: inline-block;
+}
+.sec h4{
+  display: inline-block;
+}
+.sec1 img{
+width: 550px;
+}
+.sec2 button{
+  margin-top: 3px;
+}
+.container{
+  margin-left: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 80px;
+  flex-direction: column;
+}
